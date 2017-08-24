@@ -7,3 +7,11 @@ one:
 two:
   product: two
   cart: two
+
+unique_product_item:
+  product: ruby
+  cart: unique_product_cart
+
+second_product_item:
+  product: ruby
+  cart: unique_product_cart
