@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class CartTest < ActiveSupport::TestCase
+  fixtures :all
   setup do
     @product = products(:ruby)
     @cart = carts(:unique_product_cart)

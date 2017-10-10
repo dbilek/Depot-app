@@ -3,9 +3,12 @@ es:
     application:
       title: "Biblioteca de Pragmatic"
       home: "Inicio"
+      products: "Productos"
       questions: "Preguntas"
       news: "Noticias"
       contact: "Contacto"
+      orders: "Pedidos"
+      users: "Usuarios"
   store:
     index:
       title_html: "Su Cat&aacute;logo de Pragmatic"    

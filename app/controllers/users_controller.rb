@@ -59,11 +59,12 @@ class UsersController < ApplicationController
       format.html { redirect_to users_url, notice: 'User was successfully destroyed.' }
       format.json { head :no_content }
     end
-
+  end
+    
     rescue_from 'User::Error' do |exeption|
       redirect_to users_url, notice: exeption.message
     end
-  end
+  
 
   private
     # Use callbacks to share common setup or constraints between actions.

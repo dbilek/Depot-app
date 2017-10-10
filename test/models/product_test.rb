@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class ProductTest < ActiveSupport::TestCase
+  fixtures :all
   def new_product(image_url)
     product = Product.new( title: "Book title", description: "Book description", image_url: image_url, price: 99.99 )
   end

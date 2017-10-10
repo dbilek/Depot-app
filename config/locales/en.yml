@@ -24,9 +24,12 @@ en:
     application:
       title: "The Pragmatic Bookshelf"
       home: "Home"
+      products: "Products"
       questions: "Questions"
       news: "News"
       contact: "Contact"
+      orders: "Orders"
+      users: "Users"
   store:
     index:
       title_html: "Your Pragmatic Catalog"    

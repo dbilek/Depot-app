@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
+  fixtures :all
   setup do
     @user = users(:one)
   end
